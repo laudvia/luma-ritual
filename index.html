@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUMA RITUAL — cognitive wellness</title>
+  <meta name="description" content="Colorful modern landing page in the style of a premium wellness e-commerce brand." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <canvas id="orb-canvas" aria-hidden="true"></canvas>
+
+  <div class="ticker" aria-label="Promo ticker">
+    <div class="ticker__track">
+      <span>Free shipping over $90</span><i></i><span>Plant rituals</span><i></i><span>Neuroscience meets nature</span><i></i><span>Subscribe & save 15%</span><i></i>
+      <span>Free shipping over $90</span><i></i><span>Plant rituals</span><i></i><span>Neuroscience meets nature</span><i></i><span>Subscribe & save 15%</span><i></i>
+    </div>
+  </div>
+
+  <header class="header">
+    <a class="logo" href="#top" aria-label="Luma Ritual home">
+      <span class="logo__mark"></span>
+      <span>LUMA</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#shop">Shop</a>
+      <a href="#science">Science</a>
+      <a href="#rituals">Rituals</a>
+      <a href="#ethos">Ethos</a>
+    </nav>
+    <button class="bag" type="button">Bag</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero__content reveal">
+        <p class="eyebrow">Cognitive wellness / daily rituals</p>
+        <h1>Master your mind.<br><span>Simplify your rituals.</span></h1>
+        <p class="hero__text">A futuristic wellness store with striking animation, soft gradients, premium typography and a "science meets nature" feel.</p>
+        <div class="hero__actions">
+          <a class="btn btn--dark" href="#shop">Shop collection</a>
+          <a class="btn btn--light" href="#science">Explore science</a>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal" aria-label="Decorative product composition">
+        <div class="halo"></div>
+        <div class="product product--hero tilt-card">
+          <div class="product__shine"></div>
+          <div class="jar">
+            <div class="jar__cap"></div>
+            <div class="jar__label">
+              <b>FOCUS</b>
+              <span>mushroom<br>delights</span>
+            </div>
+          </div>
+          <div class="gummy gummy--1"></div>
+          <div class="gummy gummy--2"></div>
+          <div class="gummy gummy--3"></div>
+        </div>
+        <div class="floating-pill pill-a">calm</div>
+        <div class="floating-pill pill-b">energy</div>
+        <div class="floating-pill pill-c">sleep</div>
+      </div>
+    </section>
+
+    <section class="strip reveal" aria-label="Features">
+      <span>Made for focus</span>
+      <span>Clean energy</span>
+      <span>Elevated calm</span>
+      <span>Restorative sleep</span>
+    </section>
+
+    <section class="section products" id="shop">
+      <div class="section__head reveal">
+        <p class="eyebrow">Shop all</p>
+        <h2>Delightful tools for your best state of mind.</h2>
+      </div>
+      <div class="product-grid">
+        <article class="card reveal tilt-card">
+          <div class="card__image card__image--focus"><div class="mini-jar">FOCUS</div></div>
+          <div class="card__body">
+            <h3>Focus Gummy Delights</h3>
+            <p>For clear concentration, energy, and productive flow.</p>
+            <div class="card__footer"><span>$32</span><button>ADD</button></div>
+          </div>
+        </article>
+        <article class="card reveal tilt-card">
+          <div class="card__image card__image--chill"><div class="mini-jar">CHILL</div></div>
+          <div class="card__body">
+            <h3>Chill Gummy Delights</h3>
+            <p>For calm, gentle mood support, and reduced stress.</p>
+            <div class="card__footer"><span>$32</span><button>ADD</button></div>
+          </div>
+        </article>
+        <article class="card reveal tilt-card">
+          <div class="card__image card__image--sleep"><div class="mini-jar">SLEEP</div></div>
+          <div class="card__body">
+            <h3>Sleep Gummy Delights</h3>
+            <p>For the evening ritual, deep rest, and recovery.</p>
+            <div class="card__footer"><span>$32</span><button>ADD</button></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section science" id="science">
+      <div class="science__visual reveal">
+        <div class="brain-card tilt-card">
+          <span class="node n1"></span><span class="node n2"></span><span class="node n3"></span><span class="node n4"></span>
+          <svg viewBox="0 0 500 500" aria-hidden="true">
+            <path d="M144 292C77 257 80 153 150 125c36-59 128-42 143 20 71-5 121 65 88 126 40 38 19 116-40 127-47 52-128 31-147-34-46 12-86-25-50-72Z" />
+          </svg>
+          <p>Neuro botanical matrix</p>
+        </div>
+      </div>
+      <div class="science__copy reveal">
+        <p class="eyebrow">The science</p>
+        <h2>Where neuroscience meets nature.</h2>
+        <p>This section focuses on trust: concise points, a visual "neuro-object", smooth reveals, and a clean e-commerce CTA.</p>
+        <div class="metrics">
+          <div><b>2 in 1</b><span>multi-benefit formula</span></div>
+          <div><b>15%</b><span>club saving</span></div>
+          <div><b>0</b><span>visual clutter</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section rituals" id="rituals">
+      <div class="section__head reveal">
+        <p class="eyebrow">Ritual builder</p>
+        <h2>Choose your state. Build your day.</h2>
+      </div>
+      <div class="timeline reveal">
+        <button class="time-chip active" data-state="morning">Morning Focus</button>
+        <button class="time-chip" data-state="midday">Midday Calm</button>
+        <button class="time-chip" data-state="night">Night Reset</button>
+      </div>
+      <div class="ritual-panel reveal" id="ritualPanel">
+        <div>
+          <p class="eyebrow">Morning Focus</p>
+          <h3>Open the day with clear energy.</h3>
+          <p>Starter ritual for work, study, and flow states.</p>
+        </div>
+        <span>01</span>
+      </div>
+    </section>
+
+    <section class="section ethos" id="ethos">
+      <div class="marquee reveal">
+        <span>PLANT POWER · SCIENCE BACKED · BEAUTIFUL RITUALS ·</span>
+        <span>PLANT POWER · SCIENCE BACKED · BEAUTIFUL RITUALS ·</span>
+      </div>
+      <div class="ethos__grid">
+        <div class="quote reveal">
+          <p>“Tap into your best state of mind.”</p>
+        </div>
+        <div class="ethos-card reveal">
+          <h3>Premium feel</h3>
+          <p>Large headings, glass-like cards, soft shadows, parallax and interactive elements.</p>
+        </div>
+        <div class="ethos-card reveal">
+          <h3>Mobile first</h3>
+          <p>The site adapts to phone, tablet and desktop without frameworks.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="logo"><span class="logo__mark"></span><span>LUMA</span></div>
+    <p>Demo landing page. Original assets, inspired by modern wellness aesthetics.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
